@@ -1,0 +1,25 @@
+.profile-pic {
+    border-radius: 50%;
+}
+
+.blurb {
+    text-align: left;
+}
+
+@media screen and (min-width: 992px){
+    .profile-pic.img-responsive {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .blurb {
+        transform: translateY(50%);
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .blurb {
+        text-align: center;
+    }
+}

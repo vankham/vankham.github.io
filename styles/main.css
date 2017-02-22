@@ -1,0 +1,186 @@
+html, body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Avenir Next Condensed', 'Arsenal', sans-serif;
+}
+
+.icon-bar {
+    color: white;
+}
+
+.navbar.navbar-default {
+    height: 8rem;
+    padding-top: 2rem;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.nav.navbar-nav.nav-left {
+    float: left;
+}
+
+.nav.navbar-nav.nav-right {
+    float: right;
+}
+
+.navbar .navbar-collapse {
+/*    transform: translateX(-7%);*/
+    text-align: center;
+    background-color: rgb(233, 185, 172);
+}
+
+.navbar.navbar-default .container-fluid .collapse.navbar-collapse a.brand {
+    background-color: rgb(233, 185, 172);
+    display: inline-block; 
+    color: white; 
+    text-align: center; 
+    font-size: 4.5rem;
+    margin-top: -1rem;
+    margin-left: -21rem;
+    text-decoration: none;
+}
+
+.navbar.navbar-default .container-fluid .collapse.navbar-collapse a.brand:hover {
+    display: inline-block; 
+    color: white; 
+    text-align: center; 
+    color: rgb(85, 85, 85);
+}
+
+
+.jumbotron {
+    background-image: url('https://s3.amazonaws.com/kevinwebsiteimages/images/IMG_4061-min.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -10% 30%;
+    color: rgb(255, 255, 255);
+    height: 60vh;
+}
+
+.jumbotron h1 {
+    font-weight: 400;
+}
+
+#myNavbar {
+    vertical-align: center;
+}
+
+.navbar-default {
+    background-color: rgb(233, 185, 172);
+    border: none;
+    border-radius: 0;
+    text-align: center;
+    align-content: center;
+}
+
+.navbar-brand {
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+
+.nav.navbar-nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    border: none !important;
+}
+
+.nav.navbar-nav li a:hover {
+    color: rgb(85, 85, 85);
+}
+
+span.ion-social-instagram, span.ion-social-linkedin, span.ion-email {
+    margin-top: 2rem;
+    color: white;
+    font-size: 5rem;
+    padding: 2rem;
+}
+
+span.ion-social-instagram:hover, span.ion-social-linkedin:hover, span.ion-email:hover {
+    color: rgb(70, 70, 70);
+}
+
+.container h1 {
+    color: rgb(233, 185, 172);
+    font-size: 6rem;
+    font-weight: 400;
+}
+
+.container .row .col-md-4 div {
+    margin: 0 0 2rem 0;
+    padding: 0;
+}
+
+a.dropdown-toggle:focus {
+    background-color: rgb(233, 185, 172) !important;
+}
+
+ul.dropdown-menu li a:hover {
+    background-color: rgb(233, 185, 172);
+}
+.container .row .col-md-4 img {
+    height: auto;
+    width: 100%;
+    border: none !important;
+}
+
+.col-md-10.col-md-offset-1.col-xs-10.col-xs-offset-1 img {
+    margin-bottom: 2rem;
+}
+
+
+footer {
+    padding-top: 4rem;
+    text-align: center;
+    margin-top: 1rem;
+    height: 20vh;
+    background-color: rgb(233, 185, 172);
+}
+
+@media screen and (max-width: 760px){
+    .navbar {
+        z-index: 1;    
+    }
+    
+    .navbar .navbar-collapse {
+        text-align: center;
+        background-color: rgb(233, 185, 172);
+        font-size: 0.5rem;
+        z-index: 1;
+    }
+    
+
+    .navbar.navbar-default .container-fluid .collapse.navbar-collapse a.brand {
+        padding: 0rem;
+        margin-left: -22rem;
+        font-size: 3.5rem;
+    }
+}
+
+.col-md-4.col-sm-6 img.photography {
+    margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 920px){
+    .navbar.navbar-default .container-fluid .collapse.navbar-collapse a.brand {
+        font-size: 2rem;
+        margin-top: 1rem;
+        transform: translateX(105%);
+    }
+    
+    .nav.navbar-nav.nav-left li a {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .navbar.navbar-default .container-fluid .collapse.navbar-collapse a.brand {
+        font-size: 3rem;
+        margin-top: 0.5rem;
+        transform: translateX(65%);
+    }
+}
