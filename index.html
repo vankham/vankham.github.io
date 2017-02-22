@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- CSS (load bootstrap) -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css.map">
+    <link href="https://fonts.googleapis.com/css?family=Arsenal" rel="stylesheet">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/portfolio.css">
+    <link rel="stylesheet" type="text/css" href="styles/contact.css">
+    <link rel="stylesheet" type="text/css" href="styles/parasitic_symbiotic.css">
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="http://code.angularjs.org/1.2.13/angular.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+    
+    <script src="scripts/app.js"></script>
+</head>
+
+<body ng-app="kevinPortfolio">
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span> 
+            </button>
+
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav nav-left">
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">WORK</a>
+                    <ul class="dropdown-menu" style="text-align: left; background-color: rgb(233, 185, 172);">
+                        <li><a ui-sref="portfolio">DESIGN</a></li>
+                        <li><a ui-sref="photography">PHOTOGRAPHY</a></li>
+                        <li><a href="https://issuu.com/kevinvankham/docs/port17_pages" target="_blank">PORTFOLIO</a></li>
+                    </ul>
+                </li>
+                <li><a ui-sref="resume">RESUME</a></li> 
+                <li><a ui-sref="contact">CONTACT</a></li> 
+            </ul>
+            <a class="brand" ui-sref="home">KEVIN VANKHAM</a>
+            <ul class="nav navbar-nav nav-right">
+                <li><a href="https://www.linkedin.com/in/kevin-v-13ba2685" class="ion-social-linkedin"></a></li>
+                <li><a href="http://www.instagram.com/vankham_la" class="ion-social-instagram"></a></li>
+                <li><a href="mailto:pvankham@calpoly.edu?Subject=Hello%20Kevin" class="ion-email"></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    
+<ui-view autoscroll="false"></ui-view>
+
+<footer>
+    <a href="https://www.linkedin.com/in/kevin-v-13ba2685" target="_blank"><span class="ion-social-linkedin"></span></a>
+    <a href="http://www.instagram.com/vankham_la"><span class="ion-social-instagram"></span></a>
+    <a href="mailto:pvankham@calpoly.edu?Subject=Hello%20Kevin" target="_top"><span class="ion-email"></span></a>
+</footer>
+</body>
+</html>
